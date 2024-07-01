@@ -1,0 +1,43 @@
+body{
+    font-size: 18px;
+}
+.hero-section{
+    /* display: flex; */
+    background-color: #F5FCFF;
+
+    
+}
+.imagee{
+width: 50%;
+margin-right: 40px;
+margin-top: 100px;
+}
+.hero-content{
+    margin-top: 10rem;
+margin-left: 40px;
+font-weight: 10px;
+/* width: 50%; */
+
+
+}
+.button{
+    color: white;
+    background-color: #5E3BEE ;
+}
+.font{
+font-family: "Roboto";
+font-weight: 700;
+font-size: 64px;
+}
+.widthh{
+    font-weight: 30px;
+}
+
+@media (max-width: 1200px){
+    .font{
+      font-size: 40px;
+}
+.imagee{
+    width: 350px;
+}
+}

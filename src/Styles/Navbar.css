@@ -1,0 +1,74 @@
+.navbar-logo {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.navbar-brand {
+    font-family: "Manrope", sans-serif;
+    font-weight: 600;
+    font-size: 10px;
+}
+
+.nav-link {
+    margin: 0 10px; 
+    text-decoration: none;
+   
+    font-size: 1rem;
+}
+
+.nav-link:hover {
+    color: #5E3BEE;
+}
+
+.nav-link:active {
+    color: #5E3BEE;
+}
+
+
+
+.contact-button {
+    color: #5E3BEE;
+    border: 1px solid #5E3BEE;
+    background-color: #FFFFFF;
+    padding: 5px 10px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.contact-button:hover {
+    background-color: #5E3BEE;
+    color: #ffffff;
+}
+.contact-button:active {
+    background-color:#5dcfbc;
+    color: #ffffff;
+    border-color: #ffffff;
+}
+
+
+.navbar-left {
+    margin-left: 0;
+    padding-left: 15px; 
+}
+
+.navbar-right {
+    margin-right: 0;
+    padding-right: 15px; 
+}
+
+
+.container {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+@media (max-width: 767px) {
+    .navbar-left,
+    .navbar-right {
+        margin-left: 5px;
+        margin-right: 5px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+
